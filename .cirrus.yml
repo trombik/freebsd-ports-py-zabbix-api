@@ -291,7 +291,7 @@ generate_repo_task:
     #
     # the public key, `.fingerprint`, must be placed under the root directory
     # of the repository.
-    PD_REPO_KEY: ENCRYPTED[26725bfd9629a7f04617a236f1686a3311d1904ef64041ab0ea922efa6e7e455b1ef66640c1e4abd7db1fde4b392fd16]
+    PD_REPO_KEY: ENCRYPTED[ed3d8d0e3d78af9159b88010c5b7e2f7737aebfcc82b300866f59326aac5b4d13630b5e0038c2c450f6b4e3640c5efc1]
   depends_on:
     - build
   matrix:
