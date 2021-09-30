@@ -10,6 +10,6 @@ COMMENT=	Python zabbix API
 LICENSE=	LGPL21
 
 USES=		python
-USE_PYTHON=	distutils
+USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>
